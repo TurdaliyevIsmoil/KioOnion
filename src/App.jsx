@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Index";
 import Footer from "./components/Footer";
 
 function App() {
-  return new Date().getTime() < 1666802303317 ? (
+  return new Date().getTime() < 1666899126021  ? (
     <div className="">
       <a
         href="tel:+1 (877) 747-5533"

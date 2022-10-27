@@ -39,7 +39,10 @@ const Contact = () => {
           <h2 className="text-[25px] font-bold mt-12 mb-4">Headquaters</h2>
           <p className="text-base">
             4030 MT Carmel Tobasco RD STE #127B Cincinnati, OH 45255 <br />
-            <a href="tel:+1(650)303-6042" className="text-[orange] font-semibold">
+            <a
+              href="tel:+1(650)303-6042"
+              className="text-[orange] font-semibold"
+            >
               +1(650)303-6042
             </a>
             <br />
@@ -119,13 +122,22 @@ function SocialMedia({ facebook, instagram, twitter, linkedin }) {
       <a className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center">
         <img src={facebook} alt="" />
       </a>
-      <a className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center">
+      <a
+        href="https://instagram.com/kio_union?igshid=YmMyMTA2M2Y="
+        className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center"
+      >
         <img src={instagram} alt="" />
       </a>
-      <a className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center">
+      <a
+        href="https://twitter.com/kio_union?s=11&t=AA84TUDZi3szhUzPAERfyA"
+        className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center"
+      >
         <img src={twitter} alt="" />
       </a>
-      <a className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center">
+      <a
+        href="https://www.linkedin.com/company/kio-union-llc/"
+        className="w-14 block h-14 cursor-pointer rounded-full bg-orange flex items-center justify-center"
+      >
         <img src={linkedin} alt="" />
       </a>
     </div>

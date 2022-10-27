@@ -15,7 +15,7 @@ const Why = () => {
         <div className="flex flex-col gap-7 pr-10 lg:grid lg:grid-cols-2 lg:gap-12">
           <Reason
             title={"ON-SITE WAREHOUSES."}
-            paragraph="At five major facilities, which allows us to offer regional deliveries."
+            paragraph="At major facilities, which allows us to offer regional deliveries."
             count={"01"}
             className="lg:order-1"
           />
