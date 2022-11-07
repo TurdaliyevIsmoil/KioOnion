@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Index";
 import Footer from "./components/Footer";
 
 function App() {
-  return new Date().getTime() < 1666909126021  ? (
+  return (
     <div className="">
       <a
         href="tel:+1 (877) 747-5533"
@@ -32,9 +32,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
-  ) : (
-    "Timeout"
-  );
+  ) 
 }
 
 export default App;
